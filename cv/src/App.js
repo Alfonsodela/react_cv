@@ -1,27 +1,48 @@
-// import { useState } from "react";
-import React from "react";
+import React, {useState} from "react";
 import "./App.scss";
-// import About  from './Components/About/about';
-// import Education from './Components/Education/education';
-// import Experience from './Components/Experience/experience';
-import PersonalDetails from './Components/PersonalDetails/personalDetails';
-import data from './Data/data';
+import About from "./Components/About/About";
+import Education from "./Components/Education/Education";
+import Experience from "./Components/Experience/Experience";
+import PersonalDetails from "./Components/PersonalDetails/PersonalDetails";
+import data from "./Data/data";
 
-const {personalDetails, about, experience, education} = data;
+const { personalDetails, about, experience, education } = data;
 
 function App() {
-  return (
-        <div className="App">
-        <h1>Personal Details</h1>
-            <PersonalDetails PersonalDetails={personalDetails}
-            
-            />
-          
 
+  const [showExperience, setShowExperience] = useState(true);
+
+  return (
+    <div className="App">
+      <PersonalDetails info={personalDetails} />
+      <About aboutMi={about} />
+      {/* <Experience jobs={experience} />
+      <Education edu={education} /> */}
+    
+
+      <button
+        className="custom-btn btn-4"
+        onClick={() => setShowExperience(true)}
+      >
+        Experience
+      </button>
+      <button
+        className="custom-btn btn-4"
+        onClick={() => setShowExperience(false)}
+      >
+        Education
+      </button>
       
-      {/* <About about={about} />
-      <Experience experience={experience} />
-      <Education education={education} /> */}
+
+      <div>
+        {showExperience ? (
+          <Experience jobs={experience}
+           />
+        ) : (
+          <Education edu={education}/>
+        )}
+      </div>
+      
     </div>
   );
 }

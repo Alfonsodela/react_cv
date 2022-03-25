@@ -20,18 +20,6 @@ const data = {
       date: "2014 - Actualidad",
       description: "Responsable de las secciones de Ciclismo y Montaña",
     },
-    {
-      job_title: "Responsable de sección",
-      company: "Decathlon",
-      date: "2014 - Actualidad",
-      description: "Responsable de las secciones de Ciclismo y Montaña",
-    },
-    {
-      job_title: "Responsable de sección",
-      company: "Decathlon",
-      date: "2014 - Actualidad",
-      description: "Responsable de las secciones de Ciclismo y Montaña",
-    },
   ],
   education: [
     {
