@@ -2,7 +2,8 @@ const data = {
   personalDetails: [
     {
       name: "Alfonso López de la Manzanara Arias",
-      linkedin: "linkedin.com/in/alfonsodelamanzanara",
+      linkedin: "https://linkedin.com/in/alfonsodelamanzanara",
+      gitHub: "https://github.com/Alfonsodela",
       email: "alfonsodelamanzanara@gmail.com",
       phone: "660051415",
       // img: "",
