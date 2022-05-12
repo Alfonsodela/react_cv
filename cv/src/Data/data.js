@@ -12,7 +12,7 @@ const data = {
   ],
   about: {
     description:
-      "En pleno desarrollo del Bootcamp Full Stack Developer y actualmente trabajando como Responsable de Sección en Decathlon. Ha llegado el momento de provocar un cambio profesional y aplicar mi amplio conocimiento del cliente físico al entorno digital. Enfocado en MERN Stack (MongoDB, Express, React, Node) sin descuidar otras tecnologías FrontEnd como Angular. Soy una persona comprometida, responsable y cuidadosa. Aprendo rápido y soy muy curioso. Mis hobbies, me encanta el alpinismo, la tecnología y los buenos conciertos.",
+      "En pleno desarrollo del Bootcamp Full Stack Developer y actualmente trabajando como Responsable de Sección en Decathlon, ha llegado el momento de provocar un cambio profesional y aplicar mi amplio conocimiento del cliente físico al entorno digital. Enfocado en MERN Stack (MongoDB, Express, React, Node) sin descuidar otras tecnologías FrontEnd como Angular. Soy una persona comprometida, responsable y cuidadosa. Aprendo rápido y soy muy curioso. Mis hobbies, me encanta el alpinismo, la tecnología y los buenos conciertos.",
   },
   experience: [
     {
